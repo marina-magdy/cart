@@ -1,0 +1,28 @@
+html,body{margin: auto;
+
+} 
+body{
+   
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fbackgroundstore%2Fbackgroundstore1212%2Fbackgroundstore121200289%2F17075372-pink-shopping-cart-background.jpg&tbnid=jkSljtIrU5ireM&vet=12ahUKEwiTq7TMyc6EAxW4mf0HHePkAXQQMygoegUIARC3AQ..i&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_17075372_pink-shopping-cart-background.html&docid=njsg95eOdlteGM&w=1300&h=1083&q=shopping%20cart%20background%20image%20pink&ved=2ahUKEwiTq7TMyc6EAxW4mf0HHePkAXQQMygoegUIARC3AQ');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background: rgba(236, 164, 215, 0.8);
+    border-radius: 50 px;
+    width: 60 vw;
+    display: grid;
+    justify-items: center;
+    grid-gap:1rem;
+    padding: 1rem;
+    margin:2rem;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0.0,0,0.5);
+}
+#enter{
+    background-color: rgb(255, 17, 223);
+    color: rgb(255, 240, 251);
+    border: rgb(255, 17, 223);
+    cursor: pointer;
+    margin-top: 8.5 rem;
+}
